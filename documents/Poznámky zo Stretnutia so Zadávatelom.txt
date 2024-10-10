@@ -1,0 +1,27 @@
+Základný use-case:
+  - Použivatel vyberie druh závodu (navigačný alebo carousel)
+  - Použivatel vyberie počet lodiek
+  - Závod začne, použivatel sa prepína medzi loďkami a nastavuje im kormidlo a parametre plachty
+  - Vstupy sú súbor na základe ktorého sa vygeneruje mapa, výstupmi sú víťaz závodu, a "snapshoty" ktoré lode budú robiť periodicky a pri určitých eventoch, pričom snapshot obsahuje data o lodi, vetre, kormidle a plachtách
+
+Správanie lodí:
+  - Loď ako solídne teleso s nastavitelnou plachtou (pohladať na Unreal Marketplace už existujúce assety)
+  - Lode dokážu merať pocitový vietor (Apparent), vizualizovať ho a prepočítavať na True vietor
+  - Lode jazdia po trati definovanej štartovaciou/konečnou líniou a bodmi "bójami" pričom každý takýto bod má údaj o tom či má byť obchádzaný zlava alebo zprava
+  - Ovládanie lodí musí byť modulárne, aby sa k nemu v budúcnosti dalo napojiť AI
+
+
+Trate:
+  - Dve Statické, s možnosťou načítania z config súboru
+
+Kamery:
+  - Chase kamera pre každú loď
+  - Ortogonálna kamera na celý závod
+  - "Cinematická" kamera pohybujúca s po nejakej krivke 
+
+Sily pôsobiace na loď:
+  - Vietor opierajúci sa o plachtu tlačí loď dopredu a do strany
+  - Keel, závažie na spodku lodi ktoré robí balancing proti vetru
+  - Kormidlo
+  - Odpor vody
+  - Simulácia stačí symplistická, musí však byť modulárne navrhnutá aby umožnila budúci rozvoj  
