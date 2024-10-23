@@ -1,0 +1,88 @@
+{
+        "GRIDSIZE": 2,
+        "GRIDDATA": [
+            [
+                {
+                    "wind": {
+                        "direction": [1.0, 0.5, 0.0],
+                        "speed": 10.0
+                    },
+                    "water": {
+                        "direction": [0.2, 0.1, 0.0],
+                        "speed": 2.0
+                    },
+                    "depth": 5
+                },
+                {
+                    "wind": {
+                        "direction": [0.8, 0.4, 0.0],
+                        "speed": 8.0
+                    },
+                    "water": {
+                        "direction": [0.3, 0.2, 0.0],
+                        "speed": 3.0
+                    },
+                    "depth": 7
+                }
+            ],
+            [
+                {
+                    "wind": {
+                        "direction": [0.7, 0.5, 0.1],
+                        "speed": 7.0
+                    },
+                    "water": {
+                        "direction": [0.4, 0.2, 0.0],
+                        "speed": 2.5
+                    },
+                    "depth": 6
+                },
+                {
+                    "wind": {
+                        "direction": [0.6, 0.3, 0.0],
+                        "speed": 6.0
+                    },
+                    "water": {
+                        "direction": [0.3, 0.1, 0.0],
+                        "speed": 1.5
+                    },
+                    "depth": 4
+                }
+            ]
+        ],
+        "BUOY": [
+             {
+              "position": [0.25, 0.25],  
+              "angle": 45.0
+            },
+            {
+             "position": [0.75, 0.25],  
+             "angle": 30.0
+            },
+            {
+              "position": [0.25, 0.75],  
+              "angle": 80.0
+            }
+        ],
+        "START": [0.0, 0.0],
+        "USERCAMERAS": [
+            {
+                "position": [1.0, 1.0, 2.0],
+                "rotation": [0.0, 0.0, 0.0]
+            },
+            {
+                "position": [2.0, 2.0, 3.0],
+                "rotation": [0.1, 0.0, 0.0]
+            }
+        ],
+        "CINEMATICCAMERA": [
+            {
+                "position": [0.0, 1.0, 2.0],
+                "rotation": [0.2, 0.1, 0.0]
+            }
+        ],
+    "MISC": {
+        "snapfreq": 1000,
+        "waterres": 0.1
+    }
+}
