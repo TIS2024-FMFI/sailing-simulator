@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/GitHub/sailing-simulator/Unreal Engine/Sailing/Content/Map/tutorialStracture.uasset",
+				"D:/GitHub/sailing-simulator/Unreal Engine/Sailing/Content/Map/tutorial_tabel.uasset",
+				"D:/GitHub/sailing-simulator/Unreal Engine/Sailing/Content/Map/BP_Tile.uasset",
+				"D:/GitHub/sailing-simulator/Unreal Engine/Sailing/Content/Map/MapGenerator.uasset",
+				"D:/GitHub/sailing-simulator/Unreal Engine/Sailing/Content/Map/BP_Buoy.uasset",
+				"D:/GitHub/sailing-simulator/Unreal Engine/Sailing/Content/Levels/LV_Testing2.umap",
+				"D:/GitHub/sailing-simulator/Unreal Engine/Sailing/Content/Levels/LVTesting.umap",
 				"C:/Users/alzbe/OneDrive/Dokumenty/GitHub/sailing-simulator/Unreal Engine/Sailing/Content/Minimap/MinimapMaterial.uasset",
 				"C:/Users/alzbe/OneDrive/Dokumenty/GitHub/sailing-simulator/Unreal Engine/Sailing/Content/Levels/LVTesting.umap",
 				"C:/Users/alzbe/OneDrive/Dokumenty/GitHub/sailing-simulator/Unreal Engine/Sailing/Content/Blueprints/Regatta/BPRegatta.uasset",
