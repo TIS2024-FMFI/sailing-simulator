@@ -4552,3 +4552,5 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2025.01.22-10.50.31:829][302]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
 [2025.01.22-10.50.32:404][302]LogExit: Editor shut down
 [2025.01.22-10.50.32:408][302]LogExit: Transaction tracking system shut down
+[2025.01.22-10.50.37:117][302]LogExit: Object subsystem successfully closed.
+[2025.01.22-10.50.37:123][302]LogShaderCompilers: Display: Shaders left to compile 0
